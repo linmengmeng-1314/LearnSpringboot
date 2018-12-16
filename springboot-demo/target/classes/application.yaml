@@ -1,0 +1,21 @@
+server:
+  port: 8088
+  servlet:
+    path: /
+logging:
+  level:
+    com.lin: debug
+    #org.springframework: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/yun6
+    username: root
+    password: 123456
+mybatis:
+  configuration:
+    type-aliases-package: com.lin.pojo
+  # mapper-locations: mapper/*.xml
+
+
+
